@@ -15,8 +15,8 @@ class Student:
         self.score = score
 
 students = []   
-min_score = float("inf")
-min_num = -1
+min_score = scores[0]
+min_num = 0
 for i in range(MAX_N):
     if min_score > scores[i]: # 더 작은 점수면 작은 점수 위치로 숫자 바꿔줌
         min_num = i
